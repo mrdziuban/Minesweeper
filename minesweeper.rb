@@ -207,25 +207,6 @@ class Human
   end
 end
 
-#It would be neat to add a rudimentary AI, but Ke advised us not to today.
-
-# class Computer
-#
-#   def
-#   def take_turn
-#     #r or f something
-#   end
-#
-#   def safe_to_flag?(coord1,coord2)
-#
-#   end
-#
-#   def safe_to_reveal?(coord1,coord2)
-#
-#   end
-#
-# end
-
 if __FILE__ == $PROGRAM_NAME
   puts "How wide should the field be?"
   size = gets.chomp.to_i
